@@ -7,6 +7,7 @@ body{
 	font: normal 14px 'Open Sans', Arial, sans-serif;
 	color: #999;
 	background: #f1f1f1;
+	background-color: lightblue;
 }
 
 .wrap{
@@ -22,3 +23,4 @@ body{
 	margin-top: 40px;
 	padding: 22px 6%;
 } 
+

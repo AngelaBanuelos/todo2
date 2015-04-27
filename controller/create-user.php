@@ -1,4 +1,4 @@
-+<?php
+<?php
 
 //requiring the config file
 //this is going to be for creating a user
