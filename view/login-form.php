@@ -2,6 +2,7 @@
 //require the config file to get to the $path variable
 require_once(__DIR__ . "/../model/config.php");
 ?>
+<div class="container">
 <!-- this is just to label our page-->
 <h1>Login</h1>
 <!-- method is post because this is how we send the info-->
@@ -25,3 +26,5 @@ require_once(__DIR__ . "/../model/config.php");
         <button type="submit">Submit</button>
     </div>
 </form> 
+go to <a href="register.php"> to register</a> or go <a href="index.php">home</a>
+</div>

@@ -1,13 +1,15 @@
 @import "reset.css";
 @import "normalize.css";
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
-
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);*/
+@import url(<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>);
 body{
-	font: normal 14px 'Open Sans', Arial, sans-serif;
+/*	font: normal 14px 'Open Sans', Arial, sans-serif;*/
+font-family: 'Lobster', cursive;
 	color: #999;
-	background: #f1f1f1;
-	background-color: lightblue;
+	background-color: black;
+	opacity: .7 ;
+	background-image: url(http://p1.pichost.me/i/24/1474343.jpg);
 }
 
 .wrap{
@@ -24,3 +26,24 @@ body{
 	padding: 22px 6%;
 } 
 
+@media screen and (max-width: 750px){
+ body{
+font-family: 'Lobster', cursive;
+
+font-size: 40px;
+	color: #999;
+	background-color: black;
+	opacity: .7 ;
+	background-image: url(http://p1.pichost.me/i/24/1474343.jpg);
+    }
+
+}
+@media (max-width: 1334px) {
+    body{
+      font-family: 'Lobster', cursive;
+	color: #999;
+	background-color: black;
+	opacity: .7 ;
+	background-image: url(http://p1.pichost.me/i/24/1474343.jpg);
+    }
+}

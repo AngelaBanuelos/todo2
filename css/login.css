@@ -1,0 +1,21 @@
+@import url(<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>);
+
+body{
+	font-family: 'Lobster', cursive;
+	color: #999;
+	background-image: url("http://cdn.animals-pics.com/pictures/vizfact.com/wp-content/uploads/2012/01/Black-and-White-Desktop-Wallpaper-Circular.png");
+}
+
+.container{
+	width: 500px;
+	height: 500px;
+	margin-top: 40px;
+	background-color: gray;
+	color: black;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 30px;
+	opacity: .7;
+	margin-left: 400px;
+
+}
